@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.spyproject/
+cv_results/
+fig10_segments/
+rx_resultados.csv
+rx_simbolos.csv
+rx_metricas.txt
