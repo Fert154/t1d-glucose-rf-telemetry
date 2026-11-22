@@ -15,7 +15,6 @@ The repository contains:
 3. **Graphical interface**: Extended Bergman Minimal Model (EBMM) simulation, CSV loading, transmission, and
    reception in a single Python GUI.
 
-Console messages are in Spanish.
 
 ## Repository structure
 
@@ -53,8 +52,7 @@ without it.
 
 ### 1. Forecasting and classification (Tables 2-5)
 
-Place the data file in `data/combined_data.xlsx` (see `data/README.md`) and run
-
+Place the data file in `data/combined_data.xlsx` )
 ```
 cd evaluation
 python cross_validation_forecasting.py
@@ -130,16 +128,5 @@ Set the board address in `uri_pluto` at the top of the file (default `ip:analog`
 2. **Transmit Data**: cyclic TX.
 3. **Receive & Decode**: saves `rx_resultados.csv`, `rx_simbolos.csv`, and `rx_metricas.txt`.
 
-## Data
 
-`data/combined_data.xlsx` was built by the authors from the CGM data described by Fox et al. (2018):
-408 sessions of 1014 consecutive readings from 41 patients, with missing readings interpolated.
-See `data/README.md` for the file format.
 
-## License
-
-MIT License (see `LICENSE`).
-
-## Citation
-
-If you use this code, please cite the article above.
