@@ -16,24 +16,7 @@ The repository contains:
    reception in a single Python GUI.
 
 
-## Repository structure
 
-```
-evaluation/
-    cross_validation_forecasting.py  Patient-grouped cross-validation (Tables 2-5)
-figures/
-    mdpi_figure_style.py             Common figure style
-    fig10_prediction_segments.py     Figure 10: real vs. predicted glucose (24 h segments)
-    fig11_confusion_matrix.py        Figure 11: confusion matrix at 45 min
-gui/
-    ebmm_sdr_gui.py                  GUI: EBMM simulation + SDR transmission/reception
-    qam64_link.py                    64-QAM frame construction and receiver (Algorithms 1-4)
-    simulated_link_test.py           Link test over a simulated channel (no hardware needed)
-data/
-    README.md                        Data source and file format
-results/
-    *.csv, entorno.txt               Results reported in the article
-```
 
 ## Installation
 
