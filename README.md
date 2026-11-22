@@ -25,5 +25,3 @@ python -m pip install -r requirements.txt
 python evaluation/cross_validation_forecasting.py
 python gui/ebmm_sdr_gui.py
 ```
-
-The SDR functions also require the Analog Devices libiio driver. Seed: 42. License: MIT.
